@@ -8,7 +8,7 @@
         margin:0;
         width:100%;
         height:100%;
-        background-color:#333;
+        background-color:#666;
         overflow: hidden;
       }
       #container{
@@ -19,26 +19,43 @@
       div{
         font-size:0px;
       }
+      svg{
+        width: 1600px;
+        height: 1600px;r
+      }
     </style>
 
   </head>
   <body>
-    <div id="container"></div>
-
+    <div id="bodymovin"  onMouseOver="hoverItem()" class="bg"></div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="./bodymovin.js"></script>
+<script>
+  animation = bodymovin.loadAnimation({
+    wrapper: document.getElementById('bodymovin'), // the dom element
+    renderer: 'svg',
+    loop: false,
+    autoplay: false,
+    prerender: true,
+    path: 'data.json'// the animation data
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        var animData = {
-          container: document.getElementById('container'),
-          renderer: 'svg',
-          loop: true,
-          autoplay: true,
-          path: 'data.json'
-        };
-        var anim = bodymovin.loadAnimation(animData);
-      });
-    </script>
+});
+
+console.log(animation);
+
+animation.addEventListener('DOMLoaded', function(){
+  console.log('loaded');
+  var $svg = document.querySelector('.bg svg');
+  $svg.setAttribute('preserveAspectRatio', 'none');
+});
+
+hoverItem = function (){
+  console.log('hover');
+  this.animation.setDirection(1);
+  this.animation.goToAndStop(1);
+  animation.play();
+}
+</script>
 
   </body>
 </html>
