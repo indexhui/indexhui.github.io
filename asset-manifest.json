@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/static/js/main.daae9c41.chunk.js",
+    "main.js.map": "/static/js/main.daae9c41.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.90b06dbb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.90b06dbb.js.map",
+    "static/js/2.86932a87.chunk.js": "/static/js/2.86932a87.chunk.js",
+    "static/js/2.86932a87.chunk.js.map": "/static/js/2.86932a87.chunk.js.map",
+    "static/js/3.702e4b8c.chunk.js": "/static/js/3.702e4b8c.chunk.js",
+    "static/js/3.702e4b8c.chunk.js.map": "/static/js/3.702e4b8c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.86932a87.chunk.js.LICENSE.txt": "/static/js/2.86932a87.chunk.js.LICENSE.txt",
+    "static/media/avatar.ca1900de.jpg": "/static/media/avatar.ca1900de.jpg",
+    "static/media/hero.20e31da5.jpg": "/static/media/hero.20e31da5.jpg",
+    "static/media/hero.3b8b2c59.png": "/static/media/hero.3b8b2c59.png",
+    "static/media/logo.0b588f0b.svg": "/static/media/logo.0b588f0b.svg",
+    "static/media/memoTodo.dbe82c2a.jpg": "/static/media/memoTodo.dbe82c2a.jpg",
+    "static/media/realengine.1bfcaa2c.jpg": "/static/media/realengine.1bfcaa2c.jpg",
+    "static/media/subscription-management.8d1f3934.png": "/static/media/subscription-management.8d1f3934.png",
+    "static/media/temperatureCoventer.514ec867.jpg": "/static/media/temperatureCoventer.514ec867.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90b06dbb.js",
+    "static/js/2.86932a87.chunk.js",
+    "static/js/main.daae9c41.chunk.js"
+  ]
+}
